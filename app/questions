@@ -1,12 +1,32 @@
 
 1) Explain REST and RESTful
+Answer : REST represents REpresentational State Transfer. relatively new aspect of writing Web API.
+         RESTFUL is referred for web services written by applying REST architectural concept are called RESTful services, it focuses on system resources and how state of resource should be transported over HTTP protocol to different clients written in different language. In RESTFUL web service HTTP methods like GET, POST, PUT and DELETE can be used to perform CRUD operations
+
 
 2) Explain the architectural style for the creation of a web API (client server communication, formatting language, etc.)
+Answer : The architectural style for creating web api are
+         HTTP for client server communication
+         XML/JSON as formatting language
+         Simple URI as the address for the services
+         Stateless communication
+
 
 3) Explain HTTP requests types when used with RESTful web (GET, PUT, POST, etc.)
-
+Answer : GET: It requests a resource at the request URL. It should not contain a request body as it will be discarded. Maybe it can be cached locally or on the server
+         POST: It submits information to the service for processing; it should typically return the modified or new resource
+         PUT: At the request URL it update the resource
+         DELETE: At the request URL it removes the resource
+         OPTIONS: It indicates which techniques are supported
+         HEAD: About the request URL it returns meta information
+         
 4) Explain the difference between stateless and stateful protocol. Which type of protocol is HTTP ?
+Answer : Protocol requries the server to save status of information
+         HTTP is stateless protocol
 
 5) Explain the difference between a GET and a POST (like how are sent the parameters)
+Answer : GET: Parameters in URL                         POST: Parameters are in the body
+         GET : Used for fetching documents              POST: Used for uploading data
 
 6) You can’t work out how to solve a coding problem. What do you do to find the answer?
+Answer : I will read the problem several times till I understand the problem, and i will write the PSEUDOCODE in detail of what a program must do.
