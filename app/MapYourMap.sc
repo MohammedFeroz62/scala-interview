@@ -10,5 +10,5 @@ object MapYourMap {
   Map(frontend -> List(Remy, Alexandre), analytics -> List(Pierre), api -> List(Noe))
    */
 
-  val namesInDepartments = ???
-}
+  val namesInDepartments = ??? -------- Answer : devNames.flatMap {
+}                                                case (key, value) => devDepartments.get(key).map(_ -> value)
