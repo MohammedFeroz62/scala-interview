@@ -8,8 +8,27 @@ It must print "What?" when receiving any other message
 */
 
 class BasicActor {}
+-----------------------------Answer : val x = "basicactormsg";
+                                      def basicActorMsg()
+                                      {
+                                     if(x=="basicactormsg"){
+                                     println ("Hello There");
+                                     }
+                                           else{
+                                     println ("What ?");
+                                  }
+                                }               
+                           }
+
 
 object FireActor {
+  -------------------------Answer : 
+                                   def main(args: Array[String])
+                                    {
+                                    val v = new BasicActor();
+                                     v.basicActorMsg();
+                                     }
+
 
 /*  Create an instance of BasicActor
   Make it print "Hello there." and "What?"*/
